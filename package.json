@@ -1,8 +1,10 @@
 {
   "scripts": {
     "api": "node ratingsAPI.js",
+    "build": "webpack",
     "format": "prettier --write --single-quote --print-width=120 --parser=flow --tab-width=2 \"js/**/*.{js,jsx}\"",
-    "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check"
+    "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check",
+    "watch": "webpack --watch"
   },
   "dependencies": {
     "axios": "0.16.1",
