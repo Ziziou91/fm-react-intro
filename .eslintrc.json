@@ -1,5 +1,6 @@
 {
   "extends": [
+    "prettier/react"
   ],
   "plugins": ["prettier"],
   "parserOptions": {
